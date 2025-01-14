@@ -1,0 +1,295 @@
+.one{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    border: none;
+  
+}
+.bull li a{
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    color: black;
+   
+}
+.bull li{
+list-style: none;
+display: inline-block;
+margin-right: 50px;
+align-items: center;
+}
+.bill{
+    margin-left: 15px;
+}
+.kill button{
+    margin-right: 15px;
+  width: 100px;
+  letter-spacing: 1px;
+  background-color: black;
+  color: aliceblue;
+}
+@media only screen and (max-width: 990px){
+    
+}
+@media only screen and (max-width: 770px){
+   .bull li{
+    flex-direction: column;
+    float: right;
+   }
+  
+}
+/* nav{
+    position: static;
+    top: 0px;
+}
+.job {
+   font-size: 50px;
+   margin-left: 30px;
+    margin-top: 30px;
+    width: 80%;
+    font-weight: bold;
+
+}
+#pop{
+    width: 100%;
+    border: 1px solid;
+    height: 550px;
+    
+}
+#ill{
+    margin-left: 30px;
+    font-size: 30px;
+    width: 640px;
+}
+#zin{
+    margin-left: 30px;
+}
+#pop ,.rip,.image{
+    width: 50%;
+    border: 1px solid;
+float: left;
+}
+
+@media only screen and (max-width: 770px) {
+  #pop .rip,.image{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 990px) {
+    #pop .rip,.image{
+      width: 100%;
+    }
+}
+@media only screen and (max-width: 770px) {
+  
+    .job {
+        font-size: 40px;
+        margin-left: 30px;
+         margin-top: 30px;
+         width: 100%;
+         font-weight: bold;
+     
+     }
+     #ill{
+        margin-left: 30px;
+        font-size: 20px;
+        width: 640px;
+    }
+    #zin{
+        margin-left: 30px;
+        width: 100px;
+    }
+    .image{
+        width: 100%;
+        display: n;
+    }
+} */
+#main{
+    width: 100%;
+    height: 550px;
+}
+#main .text , .image {
+    width: 50%;
+    height: 500px;
+    float: left;
+    border: 1px solid;
+    border: none;
+}
+.text h2{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 585px;
+    font-size: 60px;
+    font-weight: bold;
+}
+.text p{
+    margin-left: 40px;
+    width:640px;
+    font-size: 30.17px;
+    font-weight: 400px;
+}
+.text img{
+    margin-left: 40px;
+}
+.image img{
+    height: 500px;
+    align-items: center;
+    width: 80%;
+    margin-left: 100px;
+}
+@media only screen and (max-width: 990px) {
+    .text h2{
+        font-size: 40px;
+        width: 485px;
+    }
+    .text p{
+        width: 340px;
+        font-size: 20.17px;
+        margin-top: 20px;
+    }
+    .text img{
+        width: 200px;
+    }
+    .image img{
+        height: 400px;
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .text h2{
+        font-size: 20px;
+        width: 285px;
+        margin-top: 100px;
+    }
+    .text p{
+        width: 140px;
+        font-size: 10px;
+        margin-top: 40px;
+    }
+    .text img{
+        width: 100px;
+    }
+    .image img{
+        height: 200px;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+    #main{
+        height: 100px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #main .text , .image{
+        width: 100%;
+        height: 300px;
+    }
+
+    .image img{
+        margin-top: 100px;
+    }
+    .text h2{
+        font-size: 30px;
+        width: 385px;
+        margin-top: 40px;
+    }
+    .text p{
+        width: 240px;
+        font-size: 20px;
+        margin-top: 40px;
+        margin-left: 100px;
+}
+.text img{
+    width: 100px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+}
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.content{
+    width: 30%;
+    margin: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 10px;
+    border: 1px solid;
+}
+img{
+    text-align: center;
+    width: 200px;
+    display: block;
+}
+@media only screen and (max-width: 1000px) {
+    .content{
+        width: 45%;
+    }
+    .gallery{
+        margin-top: -500px;
+    }
+}
+#Bpart{
+    width: 100%;
+    display: flex;
+}
+.Bimage {
+    width: 40%;
+    
+
+}
+.Btext{
+    width: 60%;
+}
+.Bimage img{
+    width: 400px;
+    margin-left: 40px;
+}
+.Btext h2{
+width: 738px;
+font-size: 60px;
+font-weight: bold;
+}
+.Btext p{
+    width: 725px;
+    font-size: 20px;
+    margin-top: 32px;
+}
+@media only screen and (max-width: 1000px) {
+    .Bimage img{
+width: 300px;
+height: 350px;
+    }
+    .Btext h2{
+        width: 538px;
+        font-size: 40px;
+    }
+    .Btext p{
+        width: 438px;
+    }
+}
+@media only screen and (max-width: 830px) {
+    .Btext h2{
+        width: 300px;
+        font-size: 30px;
+    }
+    .Btext p{
+        width: 400px;
+        font-size:18px ;
+        margin-top: 0;
+    }
+    .Bimage img{
+width: 200px;
+    }
+}
+@media only screen and (max-width: 530px) {
+
+}
+
+
